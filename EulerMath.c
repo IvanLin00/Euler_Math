@@ -27,18 +27,7 @@ int main(){
         counter += 1;
     }
     printf ("The sum of all multiples of 3 and 5 up to 1000 is: %d\n", sum);
-    
-    //Problem 6
-    int natNumber = 1;
-    int squareSum = 0;
-    int sumSquare = 0;
-    while (natNumber <= 100){
-        squareSum += squareSum*squareSum;
-        sumSquare += natNumber;
-        natNumber += 1;
-    }
-    sumSquare = sumSquare * sumSquare;
-    printf ("The difference between the sum of the squares and the square of the sums from 1-100 is: %d\n", sumSquare - squareSum);
+	
     return 0;
     
 }
